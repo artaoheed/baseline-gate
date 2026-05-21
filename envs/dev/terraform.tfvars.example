@@ -1,0 +1,6 @@
+# Copy to terraform.tfvars and fill in. The real terraform.tfvars is gitignored.
+# None of these values are secret, but keeping the real file out of VCS is the
+# safe default habit.
+project_id = "baseline-gate"
+region     = "us-central1"
+zone       = "us-central1-a"
